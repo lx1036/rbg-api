@@ -25,8 +25,8 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	gentype "k8s.io/client-go/gentype"
 	workloadsv1alpha1 "sigs.k8s.io/rbgs/api/workloads/v1alpha1"
-	applyconfigurationworkloadsv1alpha1 "sigs.k8s.io/rbgs/client-go/applyconfiguration/workloads/v1alpha1"
-	scheme "sigs.k8s.io/rbgs/client-go/clientset/versioned/scheme"
+	applyconfigurationworkloadsv1alpha1 "sigs.k8s.io/rbgs/api/client-go/applyconfiguration/workloads/v1alpha1"
+	scheme "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/scheme"
 )
 
 // RoleBasedGroupScalingAdaptersGetter has a method to return a RoleBasedGroupScalingAdapterInterface.

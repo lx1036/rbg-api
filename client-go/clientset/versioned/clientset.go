@@ -24,8 +24,8 @@ import (
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
-	workloadsv1alpha1 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha1"
-	workloadsv1alpha2 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha2"
+	workloadsv1alpha1 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha1"
+	workloadsv1alpha2 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha2"
 )
 
 type Interface interface {

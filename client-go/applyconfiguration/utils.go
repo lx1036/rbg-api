@@ -23,9 +23,9 @@ import (
 	managedfields "k8s.io/apimachinery/pkg/util/managedfields"
 	v1alpha1 "sigs.k8s.io/rbgs/api/workloads/v1alpha1"
 	v1alpha2 "sigs.k8s.io/rbgs/api/workloads/v1alpha2"
-	internal "sigs.k8s.io/rbgs/client-go/applyconfiguration/internal"
-	workloadsv1alpha1 "sigs.k8s.io/rbgs/client-go/applyconfiguration/workloads/v1alpha1"
-	workloadsv1alpha2 "sigs.k8s.io/rbgs/client-go/applyconfiguration/workloads/v1alpha2"
+	internal "sigs.k8s.io/rbgs/api/client-go/applyconfiguration/internal"
+	workloadsv1alpha1 "sigs.k8s.io/rbgs/api/client-go/applyconfiguration/workloads/v1alpha1"
+	workloadsv1alpha2 "sigs.k8s.io/rbgs/api/client-go/applyconfiguration/workloads/v1alpha2"
 )
 
 // ForKind returns an apply configuration type for the given GroupVersionKind, or nil if no

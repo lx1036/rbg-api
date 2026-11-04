@@ -26,9 +26,9 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
 	apiworkloadsv1alpha2 "sigs.k8s.io/rbgs/api/workloads/v1alpha2"
-	versioned "sigs.k8s.io/rbgs/client-go/clientset/versioned"
-	internalinterfaces "sigs.k8s.io/rbgs/client-go/informers/externalversions/internalinterfaces"
-	workloadsv1alpha2 "sigs.k8s.io/rbgs/client-go/listers/workloads/v1alpha2"
+	versioned "sigs.k8s.io/rbgs/api/client-go/clientset/versioned"
+	internalinterfaces "sigs.k8s.io/rbgs/api/client-go/informers/externalversions/internalinterfaces"
+	workloadsv1alpha2 "sigs.k8s.io/rbgs/api/client-go/listers/workloads/v1alpha2"
 )
 
 // RoleBasedGroupSetInformer provides access to a shared informer and lister for

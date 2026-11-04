@@ -20,8 +20,8 @@ package fake
 import (
 	gentype "k8s.io/client-go/gentype"
 	v1alpha2 "sigs.k8s.io/rbgs/api/workloads/v1alpha2"
-	workloadsv1alpha2 "sigs.k8s.io/rbgs/client-go/applyconfiguration/workloads/v1alpha2"
-	typedworkloadsv1alpha2 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha2"
+	workloadsv1alpha2 "sigs.k8s.io/rbgs/api/client-go/applyconfiguration/workloads/v1alpha2"
+	typedworkloadsv1alpha2 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha2"
 )
 
 // fakeCoordinatedPolicies implements CoordinatedPolicyInterface

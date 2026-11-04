@@ -24,12 +24,12 @@ import (
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	applyconfiguration "sigs.k8s.io/rbgs/client-go/applyconfiguration"
-	clientset "sigs.k8s.io/rbgs/client-go/clientset/versioned"
-	workloadsv1alpha1 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha1"
-	fakeworkloadsv1alpha1 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha1/fake"
-	workloadsv1alpha2 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha2"
-	fakeworkloadsv1alpha2 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha2/fake"
+	applyconfiguration "sigs.k8s.io/rbgs/api/client-go/applyconfiguration"
+	clientset "sigs.k8s.io/rbgs/api/client-go/clientset/versioned"
+	workloadsv1alpha1 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha1"
+	fakeworkloadsv1alpha1 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha1/fake"
+	workloadsv1alpha2 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha2"
+	fakeworkloadsv1alpha2 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha2/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

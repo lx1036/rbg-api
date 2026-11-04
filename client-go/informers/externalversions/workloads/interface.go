@@ -18,9 +18,9 @@ limitations under the License.
 package workloads
 
 import (
-	internalinterfaces "sigs.k8s.io/rbgs/client-go/informers/externalversions/internalinterfaces"
-	v1alpha1 "sigs.k8s.io/rbgs/client-go/informers/externalversions/workloads/v1alpha1"
-	v1alpha2 "sigs.k8s.io/rbgs/client-go/informers/externalversions/workloads/v1alpha2"
+	internalinterfaces "sigs.k8s.io/rbgs/api/client-go/informers/externalversions/internalinterfaces"
+	v1alpha1 "sigs.k8s.io/rbgs/api/client-go/informers/externalversions/workloads/v1alpha1"
+	v1alpha2 "sigs.k8s.io/rbgs/api/client-go/informers/externalversions/workloads/v1alpha2"
 )
 
 // Interface provides access to each of this group's versions.

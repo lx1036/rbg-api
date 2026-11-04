@@ -26,9 +26,9 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	cache "k8s.io/client-go/tools/cache"
 	apiworkloadsv1alpha1 "sigs.k8s.io/rbgs/api/workloads/v1alpha1"
-	versioned "sigs.k8s.io/rbgs/client-go/clientset/versioned"
-	internalinterfaces "sigs.k8s.io/rbgs/client-go/informers/externalversions/internalinterfaces"
-	workloadsv1alpha1 "sigs.k8s.io/rbgs/client-go/listers/workloads/v1alpha1"
+	versioned "sigs.k8s.io/rbgs/api/client-go/clientset/versioned"
+	internalinterfaces "sigs.k8s.io/rbgs/api/client-go/informers/externalversions/internalinterfaces"
+	workloadsv1alpha1 "sigs.k8s.io/rbgs/api/client-go/listers/workloads/v1alpha1"
 )
 
 // InstanceInformer provides access to a shared informer and lister for

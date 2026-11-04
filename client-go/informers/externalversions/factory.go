@@ -26,9 +26,9 @@ import (
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	versioned "sigs.k8s.io/rbgs/client-go/clientset/versioned"
-	internalinterfaces "sigs.k8s.io/rbgs/client-go/informers/externalversions/internalinterfaces"
-	workloads "sigs.k8s.io/rbgs/client-go/informers/externalversions/workloads"
+	versioned "sigs.k8s.io/rbgs/api/client-go/clientset/versioned"
+	internalinterfaces "sigs.k8s.io/rbgs/api/client-go/informers/externalversions/internalinterfaces"
+	workloads "sigs.k8s.io/rbgs/api/client-go/informers/externalversions/workloads"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.

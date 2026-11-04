@@ -20,7 +20,7 @@ package fake
 import (
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
-	v1alpha2 "sigs.k8s.io/rbgs/client-go/clientset/versioned/typed/workloads/v1alpha2"
+	v1alpha2 "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/typed/workloads/v1alpha2"
 )
 
 type FakeWorkloadsV1alpha2 struct {

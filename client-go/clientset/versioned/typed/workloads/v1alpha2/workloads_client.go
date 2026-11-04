@@ -22,7 +22,7 @@ import (
 
 	rest "k8s.io/client-go/rest"
 	workloadsv1alpha2 "sigs.k8s.io/rbgs/api/workloads/v1alpha2"
-	scheme "sigs.k8s.io/rbgs/client-go/clientset/versioned/scheme"
+	scheme "sigs.k8s.io/rbgs/api/client-go/clientset/versioned/scheme"
 )
 
 type WorkloadsV1alpha2Interface interface {
